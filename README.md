@@ -27,16 +27,16 @@
 # Ingredientes: Harold Eduardo Santivañez
 
 ## Proyecto limpio, renderizado y sin errores
-!['Instalación de React'](./Docs/1.png)
+!['Proyecto corriendo'](./Docs/1a.png)
 
 ## Creación de componente con variables y uso.
-!['Despliegue de React'](./Docs/2.png)
+!['Componente Movie'](./Docs/2a.png)
 
 ## Props en el componente creado
-!['Ejecución del proyecto'](./Docs/3.png)
+!['Props en Movie'](./Docs/3a.png)
 
 ## Estado en el componente
-!['Creación de la primera aplicación'](./Docs/4.png)
+!['useState en Movie'](./Docs/4a.png)
 
 ## Manejo de estado mediante eventos
-!['Administradro de entidades'](./Docs/5.png)
+!['Tickets incrementando'](./Docs/5a.png)
