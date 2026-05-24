@@ -1,75 +1,42 @@
-# React + TypeScript + Vite
+# Laboratorio 10
+## INTEGRANTES
+## Harold Salvador - Harold Santivañez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Ingredientes: Harold David Salvador Zarate - Lab 10
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Proyecto Limpio
+![ejecucion](./Docs/1c.png)
 
-## React Compiler
+## Componente Card
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+![comoponente](./Docs/2c.png)
 
-Note: This will impact Vite dev & build performances.
+## Componente con Props
 
-## Expanding the ESLint configuration
+![props](./Docs/3c.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Estado en el componente
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![estado](./Docs/4c.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Manejo de estados mediante eventos
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![eventos](./Docs/5c.png)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Ingredientes: Harold Eduardo Santivañez
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Proyecto limpio, renderizado y sin errores
+!['Instalación de React'](./Docs/1.png)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Creación de componente con variables y uso.
+!['Despliegue de React'](./Docs/2.png)
+
+## Props en el componente creado
+!['Ejecución del proyecto'](./Docs/3.png)
+
+## Estado en el componente
+!['Creación de la primera aplicación'](./Docs/4.png)
+
+## Manejo de estado mediante eventos
+!['Administradro de entidades'](./Docs/5.png)
